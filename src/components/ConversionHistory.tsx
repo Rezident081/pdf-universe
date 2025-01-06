@@ -65,5 +65,3 @@ export const ConversionHistory = memo(({ history,  onSelectItem,  onClear,  isLo
     </div>
   );
 });
-
-ConversionHistory.displayName = 'ConversionHistory';
