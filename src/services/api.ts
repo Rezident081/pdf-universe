@@ -16,10 +16,6 @@ export const PdfService = {
     try {
       const { data } = await api.post('', { text }, {
         responseType: 'blob',
-        headers: {
-          'Accept-Charset': 'utf-8',
-          'Content-Type': 'application/json;charset=utf-8'
-        }
       });
       return data;
     } catch (error) {
