@@ -19,7 +19,7 @@ export const PdfViewer = memo(function({ pdfBlob }: PdfViewerProps) {
   }, [pdfBlob]);
 
   return (
-    url ? (<div className="h-screen bg-white rounded-lg shadow-lg overflow-hidden">
+    url ? (<div className="h-4/5 bg-white rounded-lg shadow-lg overflow-hidden">
       <iframe
         src={url}
         className="w-full h-full border-0"
